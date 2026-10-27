@@ -1,1 +1,68 @@
-{"success":true,"results":[{"title":"Мои плагины","results":[{"name":"Rey","author":"Я","link":"http://195.2.81.113:8895/my/rey.js","descr":"Основной плагин","color":"#55a6de","available_lampa":1},{"name":"Reload","author":"Я","link":"http://195.2.81.113:8895/my/reload.js","descr":"Перезагрузка интерфейса","color":"#4caf50","available_lampa":1},{"name":"Car2","author":"Я","link":"http://195.2.81.113:8895/my/car2.js","descr":"Плагин Car2","color":"#ff9800","available_lampa":1},{"name":"Card Style","author":"Я","link":"http://195.2.81.113:8895/my/card_style.js","descr":"Стиль карточек","color":"#9c27b0","available_lampa":1},{"name":"Плагин 5","author":"Я","link":"http://195.2.81.113:8895/my/plugin5.js","descr":"Будущий плагин","color":"#607d8b","available_lampa":1},{"name":"Плагин 6","author":"Я","link":"http://195.2.81.113:8895/my/plugin6.js","descr":"Будущий плагин","color":"#795548","available_lampa":1},{"name":"Плагин 7","author":"Я","link":"http://195.2.81.113:8895/my/plugin7.js","descr":"Будущий плагин","color":"#e91e63","available_lampa":1}],"hpu":"my"}]}
+{
+  "success": true,
+  "results": [
+    {
+      "title": "Мои плагины",
+      "results": [
+        {
+          "name": "Rey",
+          "author": "Я",
+          "link": "https://alexnew91.github.io/lampa-plugins/rey.js",
+          "descr": "Основной плагин",
+          "color": "#55a6de",
+          "icon": "https://alexnew91.github.io/lampa-plugins/img/reyt.jpg",
+          "available_lampa": 1
+        },
+        {
+          "name": "Reload",
+          "author": "Я",
+          "link": "https://alexnew91.github.io/lampa-plugins/reload.js",
+          "descr": "Перезагрузка интерфейса",
+          "color": "#4caf50",
+          "available_lampa": 1
+        },
+        {
+          "name": "Car2",
+          "author": "Я",
+          "link": "https://alexnew91.github.io/lampa-plugins/car2.js",
+          "descr": "Плагин Car2",
+          "color": "#ff9800",
+          "available_lampa": 1
+        },
+        {
+          "name": "Card Style",
+          "author": "Я",
+          "link": "https://alexnew91.github.io/lampa-plugins/card_style.js",
+          "descr": "Стиль карточек",
+          "color": "#9c27b0",
+          "available_lampa": 1
+        },
+        {
+          "name": "Плагин 5",
+          "author": "Я",
+          "link": "https://alexnew91.github.io/lampa-plugins/plugin5.js",
+          "descr": "Будущий плагин",
+          "color": "#607d8b",
+          "available_lampa": 1
+        },
+        {
+          "name": "Плагин 6",
+          "author": "Я",
+          "link": "https://alexnew91.github.io/lampa-plugins/plugin6.js",
+          "descr": "Будущий плагин",
+          "color": "#795548",
+          "available_lampa": 1
+        },
+        {
+          "name": "Плагин 7",
+          "author": "Я",
+          "link": "https://alexnew91.github.io/lampa-plugins/plugin7.js",
+          "descr": "Будущий плагин",
+          "color": "#e91e63",
+          "available_lampa": 1
+        }
+      ],
+      "hpu": "my"
+    }
+  ]
+}
