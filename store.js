@@ -1,5 +1,6 @@
 (function() {
     'use strict';
+    
     Lampa.Lang.add({
         my_plugins: {
             ru: "Мои плагины",
@@ -8,6 +9,7 @@
             be: "Мае плагіны"
         }
     });
+
     function addStore() {
         if (Lampa.Settings.main && !Lampa.Settings.main().render().find('[data-component="my_plugins"]').length) {
             var field = '<div class="settings-folder selector" data-component="my_plugins" data-static="true">' +
@@ -20,16 +22,18 @@
             Lampa.Settings.main().update();
         }
     }
+
     Lampa.Settings.listener.follow('open', function(e) {
         if (e.name == 'main') {
             e.body.find('[data-component="my_plugins"]').on('hover:enter', function() {
                 Lampa.Extensions.show({
-                    store: 'http://195.2.81.113:8895/my/extensions.json?v=' + Date.now(),
+                    store: 'https://alexnew91.github.io/lampa-plugins/extensions.json?v=' + Date.now(),
                     with_installed: true
                 });
             });
         }
     });
+
     if (window.appready) {
         addStore();
     } else {
