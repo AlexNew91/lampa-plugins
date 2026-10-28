@@ -2,9 +2,9 @@
 'use strict';
 // Конфигурация плагина
 var CONFIG = {
-    API_KEY: 'z1vyjzi0pw44ovynvhmv87zku',
+    API_KEY: 'ключ',
     // Указываем полный путь к папке с иконками на вашем сервере (с слэшем на конце!)
-    ICON_BASE_URL: 'http://195.2.81.113:8895/icons/',
+    ICON_BASE_URL: 'http://195.@@.81.113:порт/icons/',
     ICONS: {
         tomatoes: { file: 'rt.svg', text: '#F93109' },
         tomatoes_bad: { file: 'rt-bad.svg', text: '#00a600' },
